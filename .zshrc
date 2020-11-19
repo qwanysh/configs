@@ -6,6 +6,8 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 ZSH_THEME=powerlevel10k/powerlevel10k
+POWERLEVEL10K_SHORTEN_STRATEGY=truncate_from_right
+POWERLEVEL10K_SHORTEN_DIR_LENGTH=1
 
 plugins=(git zsh-autosuggestions)
 
