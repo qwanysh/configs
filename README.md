@@ -3,7 +3,7 @@ Zsh, Vim configs
 
 ### Requirements
 
-### Common:
+#### Common:
 - JetBrains Mono: https://www.jetbrains.com/lp/mono/
 
 #### Zsh:
